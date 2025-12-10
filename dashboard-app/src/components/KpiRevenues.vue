@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <section class="w-[25rem] h-[16rem] bg-red-200 rounded-[1rem]">
+    <section class="w-[12rem] md:w-[18rem] lg:w-[25rem] h-[16rem] bg-red-200 rounded-[1rem]">
         <div class="flex flex-col justify-between h-[90%] pl-2 pt-4">
             <h3 class="font-semibold text-[1.25rem] text-[#131313]">Revenues</h3>
             <div>     

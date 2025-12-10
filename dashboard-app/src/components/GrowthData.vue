@@ -7,7 +7,7 @@ import chart from '../assets/Images/Chart.webp'
         <div class="flex flex-col gap-4">
             <!-- header -->
             <div class="flex justify-between">
-                <h3>Growth</h3>
+                <h3 class="font-semibold text-[1.25rem] text-[#131313]">Growth</h3>
                 <select name="" id="">
                     <option value="">Yearly</option>
                     <option value="">Monthly</option>

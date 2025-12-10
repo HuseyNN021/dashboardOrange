@@ -16,8 +16,7 @@ const data=ref(
     <section class="w-[33rem] h-[25rem] bg-pink-200 rounded-2xl flex flex-col gap-3">
         <GrowthData/>
         <div class="flex justify-center gap-3">
-            <GrowthCard v-for="value in data" :title='value.title' :date="value.date" :desc="value.description"/>
-            
+            <GrowthCard v-for="value in data" :title='value.title' :key="value" :date="value.date" :desc="value.description"/>
         </div>
     </section>
 </template>

@@ -12,7 +12,7 @@ import userImg from '../assets/Images/userImg.webp'
             <!-- header -->
             
             <div class="flex justify-between">
-                <h3>Customers</h3>
+                <h3 class="font-semibold text-[1.25rem] text-[#131313]">Customers</h3>
                 <select name="" id="">
                     <option value="">Sort by News</option>
                     <option value="">Sort by Olds</option>
