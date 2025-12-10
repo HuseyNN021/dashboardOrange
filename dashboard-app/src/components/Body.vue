@@ -1,8 +1,11 @@
 <script setup>
-    import KpiOverview from './KpiOverview.vue';
+    import CustomersGrowthSection from './CustomersGrowthSection.vue';
+import KpiOverview from './KpiOverview.vue';
 </script>
 
 <template>
-    <KpiOverview/>
-
+    <section class="flex flex-col">
+        <KpiOverview/>
+        <CustomersGrowthSection/>
+    </section>
 </template>

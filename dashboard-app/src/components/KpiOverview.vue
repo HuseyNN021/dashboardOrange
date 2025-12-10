@@ -5,7 +5,9 @@ import KpiRevenues from './KpiRevenues.vue';
 </script>
 
 <template>
-    <KpiRevenues/>
-    <KpiLostDeals/>
-    <KpiQuarterGoal/>
+    <section class="flex gap-2">
+        <KpiRevenues/>
+        <KpiLostDeals/>
+        <KpiQuarterGoal/>
+    </section>
 </template>
