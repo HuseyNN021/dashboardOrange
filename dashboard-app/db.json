@@ -1,0 +1,101 @@
+{
+  "kpi": {
+    "revenues": {
+      "percent": 15,
+      "text": "Increase compared to last week",
+      "link": "Revenues report"
+    },
+    "lostDeals": {
+      "percent": 4,
+      "text": "You closed 96 out of 100 deals",
+      "link": "All deals"
+    },
+    "quarterGoal": {
+      "percent": 84,
+      "text": "All goals"
+    }
+  },
+
+  "customers": [
+    {
+      "id": 1,
+      "name": "Chris Friedkly",
+      "company": "Supermarket Villanova",
+      "avatar": "/avatars/chris.png"
+    },
+    {
+      "id": 2,
+      "name": "Chris Friedkly",
+      "company": "Supermarket Villanova",
+      "avatar": "/avatars/chris.png"
+    },
+    {
+      "id": 3,
+      "name": "Chris Friedkly",
+      "company": "Supermarket Villanova",
+      "avatar": "/avatars/chris.png"
+    },
+    {
+      "id": 4,
+      "name": "Chris Friedkly",
+      "company": "Supermarket Villanova",
+      "avatar": "/avatars/chris.png"
+    }
+  ],
+
+  "growth": {
+    "labels": ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+    "values": [20000, 35000, 60000, 75000, 30000, 50000, 80000, 100000]
+  },
+
+  "topStats": [
+    {
+      "title": "Top Month",
+      "value": "November",
+      "desc": "2019"
+    },
+    {
+      "title": "Top Year",
+      "value": "2023",
+      "desc": "96K sold so far"
+    },
+    {
+      "title": "Top Buyer",
+      "value": "Maggie",
+      "desc": "96K sold so far"
+    }
+  ],
+
+  "topStates": [
+    { "state": "NY", "value": 120000 },
+    { "state": "MA", "value": 80000 },
+    { "state": "NH", "value": 70000 },
+    { "state": "OR", "value": 50000 }
+  ],
+
+  "deals": [
+    { "id": 1, "name": "Fruit2Go" },
+    { "id": 2, "name": "Fruit2Go" },
+    { "id": 3, "name": "Fruit2Go" },
+    { "id": 4, "name": "Fruit2Go" },
+    { "id": 5, "name": "Fruit2Go" },
+    { "id": 6, "name": "Fruit2Go" }
+  ],
+
+  "messages": {
+    "unread": 2,
+    "avatars": [
+      "/avatars/user1.png",
+      "/avatars/user2.png",
+      "/avatars/user3.png",
+      "/avatars/user4.png",
+      "/avatars/user5.png"
+    ]
+  },
+
+  "sidebarUser": {
+    "name": "Gustavo Xavier",
+    "role": "Admin",
+    "avatar": "/avatars/gustavo.png"
+  }
+}

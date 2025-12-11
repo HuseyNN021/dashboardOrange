@@ -1,7 +1,17 @@
 <script setup>
+import {ref,onMounted} from 'vue'
 import userImg from '../assets/Images/userImg.webp'
 import settingIcon from '../assets/Images/settingIcon.webp'
 import logoutIcon from '../assets/Images/logoutIcon.webp'
+
+const SidebarUser=ref([])
+
+onMounted(async()=>{
+    const res= await fetch('http://localhost:3000/sidebarUser')
+    SidebarUser.value=await res.json()
+    console.log(SidebarUser.value);
+    
+})
 </script>
 
 <template>
@@ -10,8 +20,8 @@ import logoutIcon from '../assets/Images/logoutIcon.webp'
             <div class="flex items-center gap-4">
                 <img class="w-[2rem] h-[2rem] rounded-full" :src="userImg" alt="">
                 <div>
-                    <p class="text-[0.875rem]">Gustavo Xavier</p>
-                    <span class="p-0.5 bg-[#FFCD71] rounded-[1.5rem]  text-[0.625rem]">Admin</span>
+                    <p class="text-[0.875rem]">{{ SidebarUser.name }}</p>
+                    <span class="p-0.5 bg-[#FFCD71] rounded-[1.5rem]  text-[0.625rem]">{{SidebarUser.role}}</span>
                 </div>
             </div>
             <div class="flex flex-col gap-2">

@@ -1,6 +1,7 @@
 <script setup>
 import SideBar from './components/SideBar.vue';
 import Body from './components/Body.vue';
+import ShowApi from './components/ShowApi.vue';
 </script>
 
 
@@ -9,4 +10,5 @@ import Body from './components/Body.vue';
     <SideBar />
     <Body class="flex-1" />
   </main>
+  <ShowApi/>
 </template>
