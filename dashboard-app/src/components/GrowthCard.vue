@@ -15,7 +15,7 @@ const { title, date, desc } = defineProps({
             <h3 class="text-[#7D7D7D] text-[1rem]">{{ title }}</h3>
             <div>
                 <p class="text-[#734A00] text-[1rem]">{{ date }}</p>
-                <p class="text-[#FFA500] text-[0.8rem]">{{ desc }}</p>
+                <p class="text-[#FFA500] text-[0.6rem]">{{ desc }}</p>
             </div>
         </div>
     </section>

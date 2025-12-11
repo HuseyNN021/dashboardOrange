@@ -2,13 +2,10 @@
 import SideBar from './components/SideBar.vue';
 import Body from './components/Body.vue';
 import ShowApi from './components/ShowApi.vue';
+import SignIn from './Pages/SignIn.vue';
 </script>
 
 
 <template>
-  <main class="flex gap-2 bg-[#F6F6F3] min-h-screen">
-    <SideBar />
-    <Body class="flex-1" />
-  </main>
-  <ShowApi/>
+  <router-view/>
 </template>

@@ -13,22 +13,27 @@ const toggle=()=>{
 </script>
 
 <template>
-    <section :class="[
-      'h-screen w-[17.5rem] rounded-2xl bg-white flex-col pl-4 transition-all duration-300',
-      ' md:flex lg:flex ',  // desktopda hər zaman açıq
-      ToogleBar ? 'flex sticky left-0 top-0 z-50' : 'hidden' // mobil üçün toggle
-    ]">
-        <SidebarBrand/>
-        <SidebarItems/>
-        <SidebarUser/>     
-         
-    </section>
+    <section 
+  :class="[
+    'h-screen w-[17.5rem] rounded-2xl bg-white flex-col pl-4 transition-all duration-300',
 
-   <!-- MOBILE BUTTON -->
-  <button 
-    @click="toggle"
-    class="md:hidden cursor-pointer lg:hidden fixed top-4 left-4 bg-orange-500 text-white px-3 py-2 rounded-xl"
-  >
-    Toggle Sidebar
-  </button> 
+    // Tablet və desktop üçün sidebar açıq qalır
+    'md:static md:flex lg:static lg:flex',
+
+    // Mobil üçün toggle
+    ToogleBar ? 'hidden': 'flex fixed left-0 top-0 z-50' 
+  ]"
+>
+  <SidebarBrand/>
+  <SidebarItems/>
+  <SidebarUser/>
+</section>
+
+<button 
+  @click="toggle"
+  class="md:hidden lg:hidden fixed top-4 left-4 bg-orange-500 text-white px-3 py-2 rounded-xl z-[9999]"
+>
+  Toggle Sidebar
+</button>
+
 </template>

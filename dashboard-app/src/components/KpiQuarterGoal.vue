@@ -1,11 +1,6 @@
 <script setup>
 import quarterGoal from '../assets/Images/quarterGoal.webp'
-import { defineProps } from 'vue';
-const props=defineProps({
-    percent:{type: Number},
-    text:{type: String},
-    link:{type: String},
-})
+
 </script>
 
 <template>
@@ -15,7 +10,7 @@ const props=defineProps({
             <div>     
                 <img :src="quarterGoal" alt="">
             </div>
-            <p><a href="#" class="text-[#734A00] text-[0.875rem]">{{ props.text }} →</a></p>
+            <p><a href="#" class="text-[#734A00] text-[0.875rem]">All goals →</a></p>
         </div>
     </section>
 </template>
