@@ -10,12 +10,12 @@ const { title, date, desc } = defineProps({
 
 
 <template>
-    <section class="w-[10rem] h-[8rem] bg-orange-200 rounded-2xl">
-        <div class="flex flex-col gap-5 p-3">
+    <section class="w-[27vw] md:w-[30vw] lg:w-[10rem] h-[6rem] bg-white shadow-xl rounded-2xl">
+        <div class="flex flex-col gap-3 p-3">
             <h3 class="text-[#7D7D7D] text-[1rem]">{{ title }}</h3>
             <div>
-                <p class="text-[#734A00] text-[1.5rem]">{{ date }}</p>
-                <p class="text-[#FFA500] text-[1rem]">{{ desc }}</p>
+                <p class="text-[#734A00] text-[1rem]">{{ date }}</p>
+                <p class="text-[#FFA500] text-[0.8rem]">{{ desc }}</p>
             </div>
         </div>
     </section>

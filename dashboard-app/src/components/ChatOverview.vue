@@ -4,7 +4,7 @@ import userImg from '../assets/Images/userImg.webp'
 
 <template>
 
-    <section class="w-[20rem] bg-red-200 p-1 rounded-2xl mt-3">
+    <section class="w-[45vw] md:w-[30vw] lg:w-[20vw] bg-white shadow-xl p-1 rounded-2xl mt-3">
         <div class="pl-3 flex flex-col gap-3">
             <div>
                 <h3 class="font-semibold text-[1.25rem] text-[#131313]">

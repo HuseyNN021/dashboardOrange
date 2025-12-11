@@ -14,13 +14,13 @@ import exportIcon from '../assets/Images/exportIcon.webp'
         <input class="bg-gray-200 w-[15rem] p-3 rounded-xl" type="search" placeholder="Search">
         <div>
             <ul class="flex flex-col gap-5">
-                <li><a href="" class="flex items-center gap-3"><img class="" :src="dashboardIcon" alt="">Dashboard</a></li>
-                <li><a href="" class="flex items-center gap-3"><img :src="userIcon" alt="">Customers</a></li>
-                <li><a href="" class="flex items-center gap-3 "><img :src="clipboardIcon" alt="">All reports</a></li>
-                <li><a href="" class="flex items-center gap-3 "><img :src="globalIcon" alt="">Geography</a></li>
-                <li><a href="" class="flex items-center gap-3 "><img :src="chatIcon" alt="">Conversations</a></li>
-                <li><a href="" class="flex items-center gap-3 "><img :src="basketIcon" alt="">Deals</a></li>
-                <li><a href="" class="flex items-center gap-3 "><img :src="exportIcon" alt="">Export</a></li>
+                <li><a href="" class="flex items-center gap-3 hover:bg-gray-300 p-1.5 rounded-2xl"><img class="" :src="dashboardIcon" alt="">Dashboard</a></li>
+                <li><a href="" class="flex items-center gap-3 hover:bg-gray-300 p-1.5 rounded-2xl"><img :src="userIcon" alt="">Customers</a></li>
+                <li><a href="" class="flex items-center gap-3 hover:bg-gray-300 p-1.5 rounded-2xl "><img :src="clipboardIcon" alt="">All reports</a></li>
+                <li><a href="" class="flex items-center gap-3 hover:bg-gray-300 p-1.5 rounded-2xl "><img :src="globalIcon" alt="">Geography</a></li>
+                <li><a href="" class="flex items-center gap-3 hover:bg-gray-300 p-1.5 rounded-2xl "><img :src="chatIcon" alt="">Conversations</a></li>
+                <li><a href="" class="flex items-center gap-3 hover:bg-gray-300 p-1.5 rounded-2xl "><img :src="basketIcon" alt="">Deals</a></li>
+                <li><a href="" class="flex items-center gap-3 hover:bg-gray-300 p-1.5 rounded-2xl "><img :src="exportIcon" alt="">Export</a></li>
             </ul>
         </div>
     </section>

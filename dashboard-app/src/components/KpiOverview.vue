@@ -5,9 +5,11 @@ import KpiRevenues from './KpiRevenues.vue';
 </script>
 
 <template>
-    <section class="flex gap-2">
-        <KpiRevenues/>
-        <KpiLostDeals/>
+    <section class="flex flex-col  lg:flex-row  gap-2">
+        <div class="flex gap-2">
+            <KpiRevenues/>
+            <KpiLostDeals/>
+        </div>
         <KpiQuarterGoal/>
     </section>
 </template>

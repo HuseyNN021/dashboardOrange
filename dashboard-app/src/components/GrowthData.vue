@@ -3,7 +3,7 @@ import chart from '../assets/Images/Chart.webp'
 </script>
 
 <template>
-    <section class="w-[33rem] h-[16rem] bg-amber-200 p-4 rounded-2xl">
+    <section class="w-[90vw] md:w-[60vw]  lg:w-[35vw] h-[14rem] bg-white shadow-xl p-4 rounded-2xl">
         <div class="flex flex-col gap-4">
             <!-- header -->
             <div class="flex justify-between">
