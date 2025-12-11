@@ -22,7 +22,7 @@ import userImg from '../assets/Images/userImg.webp'
             <!-- Customer List -->
 
             <div>
-                <div class="flex justify-between items-center hover:bg-fuchsia-700 rounded-2xl p-2 h-[3rem]">
+                <div class="flex justify-between items-center hover:bg-amber-100 rounded-2xl p-2 h-[3rem]">
                     <div class="flex items-center gap-4">
                         <img class="w-[2rem] h-[2rem] rounded-full" :src="userImg" alt="">
                         <div>
@@ -36,7 +36,7 @@ import userImg from '../assets/Images/userImg.webp'
                         <img class="w-[1rem] h-[1rem]" :src="detailedIcon" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-center hover:bg-fuchsia-700 rounded-2xl p-2 h-[3rem]">
+                <div class="flex justify-between items-center hover:bg-amber-100 rounded-2xl p-2 h-[3rem]">
                     <div class="flex items-center gap-4">
                         <img class="w-[2rem] h-[2rem] rounded-full" :src="userImg" alt="">
                         <div>
@@ -50,7 +50,7 @@ import userImg from '../assets/Images/userImg.webp'
                         <img class="w-[1rem] h-[1rem]" :src="detailedIcon" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-center hover:bg-fuchsia-700 rounded-2xl p-2 h-[3rem]">
+                <div class="flex justify-between items-center hover:bg-amber-100 rounded-2xl p-2 h-[3rem]">
                     <div class="flex items-center gap-4">
                         <img class="w-[2rem] h-[2rem] rounded-full" :src="userImg" alt="">
                         <div>
@@ -64,7 +64,7 @@ import userImg from '../assets/Images/userImg.webp'
                         <img class="w-[1rem] h-[1rem]" :src="detailedIcon" alt="">
                     </div>
                 </div>
-                <div class="flex justify-between items-center hover:bg-fuchsia-700 rounded-2xl p-2 h-[3rem]">
+                <div class="flex justify-between items-center hover:bg-amber-100 rounded-2xl p-2 h-[3rem]">
                     <div class="flex items-center gap-4">
                         <img class="w-[2rem] h-[2rem] rounded-full" :src="userImg" alt="">
                         <div>

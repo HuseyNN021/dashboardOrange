@@ -10,10 +10,10 @@ import DealsIcon from '../assets/Images/DealsIcon.webp'
                 New Deals
             </h3>
             <div class="grid grid-cols-2 gap-2">
-                <div class="text-[#734A00] text-[0.5rem] bg-[#FFF7E8] p-[0.675rem] flex gap-2 rounded-2xl"><img :src="DealsIcon" alt="">Fruit2Go</div>
-                <div class="text-[#734A00] text-[0.5rem] bg-[#FFF7E8] p-[0.675rem] flex gap-2 rounded-2xl"><img :src="DealsIcon" alt="">Fruit2Go</div>
-                <div class="text-[#734A00] text-[0.5rem] bg-[#FFF7E8] p-[0.675rem] flex gap-2 rounded-2xl"><img :src="DealsIcon" alt="">Fruit2Go</div>
-                <div class="text-[#734A00] text-[0.5rem] bg-[#FFF7E8] p-[0.675rem] flex gap-2 rounded-2xl"><img :src="DealsIcon" alt="">Fruit2Go</div>
+                <div class="text-[#734A00] text-[0.5rem] bg-[#FFF7E8] p-[0.675rem] flex gap-2 rounded-2xl flex flex-col items-center"><img :src="DealsIcon" alt=""><p>Fruit2Go</p></div>
+                <div class="text-[#734A00] text-[0.5rem] bg-[#FFF7E8] p-[0.675rem] flex gap-2 rounded-2xl flex flex-col items-center"><img :src="DealsIcon" alt=""><p>Fruit2Go</p></div>
+                <div class="text-[#734A00] text-[0.5rem] bg-[#FFF7E8] p-[0.675rem] flex gap-2 rounded-2xl flex flex-col items-center"><img :src="DealsIcon" alt=""><p>Fruit2Go</p></div>
+                <div class="text-[#734A00] text-[0.5rem] bg-[#FFF7E8] p-[0.675rem] flex gap-2 rounded-2xl flex flex-col items-center"><img :src="DealsIcon" alt=""><p>Fruit2Go</p></div>
             </div>
         </div>
     </section>
